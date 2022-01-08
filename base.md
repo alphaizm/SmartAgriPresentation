@@ -1,16 +1,19 @@
 ---
 marp: true
+theme: gaia
+header: "**Qiita** __Marp samples__"
+footer: "by **＠tomo-makes**"
 ---
-<!--
-headingDivider: 1
--->
-
 # タイトル
 
+---
 # スライド1
 
 テスト
 
+---
 # スライド2
 
 テスト
+
+---
