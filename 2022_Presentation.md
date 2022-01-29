@@ -27,6 +27,7 @@ _paginate: false
 - [3. 導入](#3-導入)
   - [3.1. スマート農業の12カテゴリー(1)](#31-スマート農業の12カテゴリー1)
   - [3.2. スマート農業の12カテゴリー(2)](#32-スマート農業の12カテゴリー2)
+  - [スマート農業のコスト感](#スマート農業のコスト感)
 - [4. 背景と目的](#4-背景と目的)
   - [4.1. 背景](#41-背景)
   - [4.2. 目的](#42-目的)
@@ -61,27 +62,35 @@ _paginate: false
 
 ## 3.1. スマート農業の12カテゴリー(1)
 
-| No.     | 内容 |
-| ------ | ---- |
-| 1 | 経営管理システム    |
-| 2   |ロボットトラクター   |
-| 3 | 自動操舵システム    |
-| 4   | トラクター（自動操舵機能付き） |
-| 5 | 高性能田植機（直線アシスト機能・可変施肥機能付き）    |
-| 6   |リモコン草刈機   |
+| No.                               | 内容                                               |
+| --------------------------------- | -------------------------------------------------- |
+| 1                                 | 経営管理システム                                   |
+| 2                                 | ロボットトラクター                                 |
+| <span style="color: red">3</span> | <span style="color: red">自動操舵システム</span>   |
+| 4                                 | トラクター（自動操舵機能付き）                     |
+| 5                                 | 高性能田植機（直線アシスト機能・可変施肥機能付き） |
+| 6                                 | リモコン草刈機                                     |
 
 ---
 
 ## 3.2. スマート農業の12カテゴリー(2)
 
-| No.     | 内容 |
-| ------ | ---- |
-| 7 | 高性能コンバイン（収量等センサ・直線アシスト機能付き）    |
-| 8   |アシストスーツ   |
-| 9 | 農業用ドローン・人工衛星（サービスを含む）    |
-| 10   |水管理システム   |
-| 11 | ほ場・施設環境モニタリング（環境制御システムを含む）    |
-|12   | その他農産関係   |
+| No.                                | 内容                                                                                 |
+| ---------------------------------- | ------------------------------------------------------------------------------------ |
+| 7                                  | 高性能コンバイン（収量等センサ・直線アシスト機能付き）                               |
+| 8                                  | アシストスーツ                                                                       |
+| 9                                  | 農業用ドローン・人工衛星（サービスを含む）                                           |
+| 10                                 | 水管理システム                                                                       |
+| <span style="color: red">11</span> | <span style="color: red">ほ場・施設環境モニタリング（環境制御システムを含む）</span> |
+| 12                                 | その他農産関係                                                                       |
+
+---
+
+## スマート農業のコスト感
+
+![height:450](images/smart_cost.png)
+<span style="font-size:20px">　　　　　　　　　　　　　　　　　　　　　出展：スマート農業新技術 製品サービス集(農林水産省)</span>
+<span style="font-size:20px">　　　　　　　　　　　　　　　　　　　　　引用：FOODBOX株式会社 ウェビナー内資料</span>
 
 ---
 
@@ -255,3 +264,32 @@ https://www.maff.go.jp/hokuriku/seisan/smart/forum.html
 ⑥ なぜ自社か(⇒競合優位性)
 ⑦ 概要スケジュールと予算感
 ⑧ 全体まとめ(＋留意&前提事項)
+
+---
+
+<table>
+<tr><td>№</td><td>色</td><td>値</td>
+<tr><td>1<td bgcolor="white">white</td><td>#ffffff</td>
+<tr><td>2<td bgcolor="black"><font color=white>black</td><td>#000000</td>
+<tr><td>3<td bgcolor="red"><font color=white>red<td>#ff0000
+<tr><td>4<td bgcolor="blue"><font color=white>blue</td><td>#0000ff</td>
+<tr><td>5<td bgcolor="yellow">yellow<td>#ffff00
+<tr><td>6<td bgcolor="green"><font color=white>green<td>#008000
+<tr><td>7<td bgcolor="orange">orange<td>#ffa500
+<tr><td>8<td bgcolor="pink">pink<td>#ffc0cb
+</table>
+
+---
+
+|                        №                        |   色    |  値   |
+| :---------------------------------------------: | :-----: | :---: |
+|          1<td bgcolor=white>white</td>          | #ffffff |
+| 2<td bgcolor=black><font color=white>black</td> | #000000 |
+|   3<td bgcolor=red><font color=white>red</td>   | #0000ff |
+|  4<td bgcolor=blue><font color=white>blue</td>  | #ffff00 |
+|         5<td bgcolor=yellow>yellow</td>         | #ffff00 |
+|         5<td bgcolor=yellow>yellow</td>         | #ffff00 |
+| 6<td bgcolor=green><font color=white>green</td> | #ffff00 |
+| 6<td bgcolor=green><font color=white>green</td> | #ffff00 |
+|         7<td bgcolor=orange>orange</td>         | #ffff00 |
+|           8<td bgcolor=pink>pink</td>           | #ffff00 |
