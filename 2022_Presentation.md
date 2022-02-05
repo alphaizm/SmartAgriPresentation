@@ -11,7 +11,9 @@ footer: "Created by Atsushi Nakada"
 ---
 
 <!--
+_class: lead
 _paginate: false
+_header: ""
 -->
 
 # 1. スマート農業を試してみませんか
@@ -53,6 +55,7 @@ _paginate: false
     - [7.2.1. スマート農機具(自動操舵)の対象, 期待される導入効果](#721-スマート農機具自動操舵の対象-期待される導入効果)
     - [7.2.2. 実証結果](#722-実証結果)
 - [8. 土壌調査](#8-土壌調査)
+  - [8.1. 土壌調査で分かる内容](#81-土壌調査で分かる内容)
 - [9. 【余談1】能美市たけもと農場さん](#9-余談1能美市たけもと農場さん)
 - [10. 【余談2】圃場管理、作業管理](#10-余談2圃場管理作業管理)
 - [11. 質問](#11-質問)
@@ -94,20 +97,23 @@ _paginate: false
 | 12                                 | その他農産関係                                                                       |
 
 ---
+<!--
+_footer: "出展：スマート農業新技術 製品サービス集(農林水産省)／引用：FOODBOX株式会社 ウェビナー内資料"
+-->
 
 ## 3.3. スマート農業のコスト感
 
-![height:450](images/smart_cost.png)
-<span style="font-size:20px">　　　　　　　　　　　　　　　　　　　　　出展：スマート農業新技術 製品サービス集(農林水産省)</span>
-<span style="font-size:20px">　　　　　　　　　　　　　　　　　　　　　引用：FOODBOX株式会社 ウェビナー内資料</span>
+![h:520px](images/smart_cost.png)
 
 ---
 
 # 4. 背景と目的
 
 1. スマート農業を取り入れて楽を模索したい
-2. 今後のために親がやっていることをデータとして残していきたい
+1. 今後のために親がやっていることをデータとして残していきたい
 → 結果の可視化
+1. (可能であれば)上記を元にいろいろ検討、データ解析できれば
+1. (可能であれば)情報を共有していきたい
 
 ---
 
@@ -117,16 +123,18 @@ _paginate: false
 ドローンにより圃場を撮影し、
 撮影できた画像を活用したい
 
-Q：オルソ画像を乗せる
+![bg](images/Ortho.jpg)
 
 ---
 
 ## 5.1. 雑草診断
 
 移植後５～７週
+ベストは水抜き後
+(水があっても太陽の位置を気にすればOK)
 　　　～～～Ｑ要確認
 
-Q：画像を載せる
+![bg fit brightness:0.8](images/iroha_zassou_outline.png)
 
 ---
 
@@ -136,11 +144,15 @@ Q：画像を載せる
   * 使用量を減らせる
     * 経費を減らせる
 
+![bg right:50%](images/iroha_zassou_detail.png)
+
 ---
 
 ## 5.2. 葉色診断
 
 穂肥判断用
+
+![bg fit brightness:0.8](images/iroha_hairo.png)
 
 ---
 
@@ -164,7 +176,7 @@ Q：画像を載せる
 * ドローン設定、確認用タブレット【自前／レンタル／購入】
 ※:warning: DJI製の場合、iPad(iPadOS)が必要
 * 画像解析用のサービス【購入】
-  * 今回使用したアプリ：葉色解析サービス IROHA ※ [参照](https://smx-iroha.com/)
+  * 今回使用：[葉色解析サービス IROHA](https://smx-iroha.com/)
 
 ---
 
@@ -176,7 +188,7 @@ Q：画像を載せる
 - *(いずれは直進アシストハンドルを導入したいなぁ・・・)*
 
 
-今回使用したアプリ：AgriBus-NAVI ※ [参照](https://agri-info-design.com/agribus-navi/)
+今回使用したアプリ：[AgriBus-NAVI](https://agri-info-design.com/agribus-navi/)
 
 ![bg fit brightness:0.4 ](images/AgriBus_All.png)
 
@@ -299,7 +311,7 @@ _color: red
 * <strong><span style="font-size: 60%">スマート農業技術の導入コストに見合うだけの面積で使用しないと生産費が増加し、収益が低下しやすい。</span></strong>
 *  <strong><span style="font-size: 60%">規模の小さい経営では10a当たりの機械償却費が増大しやすい。</span></strong>
 
-![bg fit brightness:0.5](images/smart_management_summary.png)
+![bg fit brightness:0.7](images/smart_management_summary.png)
 
 ---
 
@@ -321,7 +333,7 @@ _color: red
    1. 労働環境改善、作業柔軟性の向上、費用(経費)削減
       1. 作業の軽減 ⇒ 疲労、ストレス軽減
       1. 作業の熟練度が不要 ⇒ 育成期間短縮(育成経費削減)
-      3. 作業の中断・再開が容易 ⇒ 作業の柔軟性
+      1. 作業の中断・再開が容易 ⇒ 作業の柔軟性
       1. 夜間作業が可能 ⇒ 翌日の天候を考慮した柔軟性のある作業
       1. 肥料のまきむら、二重まきの防止 ⇒ 経費削減
 
@@ -334,18 +346,39 @@ _color: red
 ![bg fit](images/fukui_result.png)
 
 ---
-
+<!--
+_color: brown
+-->
 # 8. 土壌調査
 
-土壌の傾向を知ることで、今後の肥料散布の参考にする
+土壌の傾向を知ることで、今後の肥料散布や土壌改良の参考にする
+図はpH値例
+赤：5.7 ～ 青：6
 
-Q：図を載せる
+![bg fit](images/soil_trend.png)
 
 ---
 
+## 8.1. 土壌調査で分かる内容
+
+依頼先は農協(ニトリ横)で無料でお願いできる
+調査結果は依頼してから数ヶ月かかる
+
+1. pH
+2. 腐値
+3. 有効態りん酸
+4. 交換性加里
+5. 有効態けい酸
+6. 遊離酸化鉄
+
+---
+<!--
+_color: red
+-->
+
 # 9. 【余談1】能美市たけもと農場さん
 
-Q：図を載せる
+![bg fit brightness:0.6](images/takemoto.png)
 
 ---
 
@@ -360,6 +393,8 @@ Q：図を載せる
 - IROHAも2022年4月頃から圃場管理機能を入れてくるらしい
 - ビジョンテックから圃場管理サービス(生育モデル使用可)が
   2022年4月頃に開始すると聞いているが連絡待ち
+
+![bg fit brightness:0.3](images/Zarvio.png)
 
 ---
 
